@@ -11,8 +11,7 @@
 public class HelloYou {
     public static void main(String[] args) {
       
-        System.out.println("Evan Shalom");
-        System.out.println("Senior");
-        System.out.println("I go to Yeshivah of Flatbush.");
+        System.out.println("==================================\n|   Evan Shalom                  |\n|   Senior                       |\n|   I go to Yeshivah of Flatbush |\n==================================");
+       
     }
 }

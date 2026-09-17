@@ -6,8 +6,8 @@ Write the explanations **in your own words.** Copying the error message back is 
 
 | # | Error message Java gave you | What was actually wrong | How you fixed it |
 |---|---|---|---|
-| 1 | | | |
-| 2 | | | |
+| 1 | File name doesnt match| The b in the file was lowercase| Changed it to an uppercase|
+| 2 |  | | |
 | 3 | | | |
 | 4 | | | |
 
