@@ -16,21 +16,21 @@ public static double calc(double p, int y, double r) {
 
 **1. What do you think `p`, `y`, and `r` represent?**
 
-[your answer]
+p is principal, y is the loan term, r is intrest rate
 
 **2. What does the method return?**
 
-[your answer]
+The amount of interest paid
 
 **3. What would you rename each variable and the method itself?**
 
 | Original | Better name |
 |---|---|
-| `calc` | |
-| `p` | |
-| `y` | |
-| `r` | |
-| `t` | |
+| `calc` | CompoundIntrest |
+| `p` | Principal|
+| `y` | Loanterm|
+| `r` | interestRate|
+| `t` | balance|
 
 ## Part B — Rewrite it
 
@@ -39,8 +39,12 @@ Rewrite the method with better names **and** comments. Remember the rule:
 > **Bad comments explain *what*. Good comments explain *why*.**
 
 ```java
-// your rewritten version here
-```
+public static double CompoundIntrest(double Principal, int Loanterm, double interestRate) {
+    double balance = Principal;
+    for (int i = 0; i < loanterm; i++) {
+        balance = balance + (balance * interestRate);
+    }
+    return balance - Principal;``}
 
 ## Part C — Reflect
 

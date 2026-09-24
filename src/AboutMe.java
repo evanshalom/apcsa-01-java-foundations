@@ -14,9 +14,19 @@
 public class AboutMe {
     public static void main(String[] args) {
 
-        // Declare your variables here
+        final String FAVORITE_SUBJECT = "Computer Science";
+        int favoriteNumber = 13;
+        double favoriteDecimal = 2.13;
+        boolean enjoysCoding = true;
+        char favoriteInitial = 'E';
+        String favoriteColor = "Brown";
 
-        // Print them with labels here
+        System.out.println("Favorite subject: " + FAVORITE_SUBJECT);
+        System.out.println("Favorite number: " + favoriteNumber);
+        System.out.println("Favorite decimal: " + favoriteDecimal);
+        System.out.println("Enjoys coding: " + enjoysCoding);
+        System.out.println("Favorite initial: " + favoriteInitial);
+        System.out.println("Favorite color: " + favoriteColor);
 
     }
 }
